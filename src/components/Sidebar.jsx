@@ -35,7 +35,7 @@ const Sidebar = () => {
             </div>}
             {!collapsed && <div>
                 <div className="workspace p-3 flex justify-between border-b border-b-[#9fadbc29]">
-                    <h4>Remote Dev's Workspace</h4>
+                    <h4>Karmanay's Workspace</h4>
                     <button onClick={()=> setCollapsed(!collapsed)} className='hover:bg-slate-600 rounded-sm p-1'>
                         <ChevronLeft size={18}></ChevronLeft>
                     </button>
